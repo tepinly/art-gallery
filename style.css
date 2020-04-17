@@ -5,7 +5,6 @@ html {
 * {
     margin: 0;
     font-size: 16px;
-    color: #ff004d;
     user-select: none;
 }
 
@@ -112,6 +111,7 @@ h3 {
 #contact {
     display: inline-block;
     padding: 20px 0;
+    color: #ff004d;
     text-align: center;
     border-top: 4px solid #ff004d;
     border-bottom: 4px solid #ff004d;
