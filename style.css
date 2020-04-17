@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    font-size: 16px;
+    color: #ff004d;
+    user-select: none;
+}
+
+body {
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navBar {
+    overflow: hidden;
+    z-index: 10000;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    
+}
+
+ul li.navContent {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: #ff004d;
+    opacity: .8;
+    transition: font-size .3s ease;
+  }
+
+#navBar:hover {
+    opacity:1;
+}
+
+li a:hover {
+    opacity:1;
+    font-size: 20px;
+    color: #ff004d;
+}
+
+#tepinly {
+    color: turquoise;
+    transition: font-size .3s ease;
+    font-size: 22px;
+    padding-top: 10px;;
+}
+
+#tepinly:hover {
+    font-size: 26px;
+}
+
+.text {
+    text-shadow: 0px 2px 5px black;
+}
+
+#home {
+    margin: 0;
+    text-align: center;
+    padding: 300px 0;
+    text-shadow: 0px 0px 10px black;
+    color: #ff004d;
+}
+
+#about {
+    border-top: 5px solid #ff004d;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+    background: black;
+}
+
+.carousel-inner > .item > img {
+    margin: auto;
+    max-width: 620px;
+    max-height: 620px;
+}
+
+.carousel {
+    background: rgba(0, 0, 0, 0);
+}
+
+#contact {
+    width: 100%;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+#botBar {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact {
+    display: inline-block;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 4px solid #ff004d;
+    border-bottom: 4px solid #ff004d;
+    bottom: 0;
+    overflow: hidden;
+    background-color: black;
+    margin: 80px 0 40px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ff004d;
+    padding: 10px 20px;
+    opacity: .8;
+    transition: padding .3s ease;
+}
+
+#contact a:hover {
+    opacity:1;
+    color: #ff004d;
+    padding: 10px 30px;
+}
