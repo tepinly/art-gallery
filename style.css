@@ -4,8 +4,8 @@ html {
 
 * {
     margin: 0;
-    font-size: 16px;
     user-select: none;
+    font-size: medium;
 }
 
 body {
@@ -30,8 +30,9 @@ i {
     padding: 0;
     top: 0;
     width: 100%;
-    opacity: .8;
+    opacity: 1;
     background-color: black;
+    transition: .2s;
 }
 
 ul li.navContent {
@@ -42,7 +43,7 @@ ul li.navContent {
 li a {
     text-align: center;
     display: block;
-    padding: 16px 12px;
+    padding: 10px 12px;
     text-decoration: none;
     color: #ff004d;
     opacity: .8;
@@ -51,19 +52,19 @@ li a {
 
 li a:hover {
     opacity: 1;
-    font-size: 20px;
+    font-size: larger;
     color: #ff004d;
 }
 
 #tepinly {
     color: turquoise;
     transition: font-size .3s ease;
-    font-size: 22px;
-    padding-top: 10px;
+    font-size: large;
+    padding-top: 5px;
 }
 
 #tepinly:hover {
-    font-size: 26px;
+    font-size: x-large;
 }
 
 .text {
@@ -74,7 +75,7 @@ li a:hover {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 200px;
     text-shadow: 0px 0px 10px black;
     color: #ff004d;
@@ -167,6 +168,7 @@ li a:hover {
 
 .row {
     margin: auto;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
