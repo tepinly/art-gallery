@@ -8,7 +8,7 @@ html {
     user-select: none;
 }
 
-#backImg {
+body {
     background: url(background.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,7 +40,7 @@ ul li.navContent {
 li a {
     text-align: center;
     display: block;
-    padding: 16px 20px;
+    padding: 16px 12px;
     text-decoration: none;
     color: #ff004d;
     opacity: .8;
@@ -109,7 +109,7 @@ li a:hover {
 }
 
 #about {
-    padding-top: 5px;;
+    padding-top: 5px;
 }
 
 #about-inner {
@@ -121,7 +121,7 @@ li a:hover {
     margin-top: 100px;
     padding: 10px;
     background: black;
-    width: 50%;
+    max-width: 700px;
     margin-bottom: 100px;
 }
 
@@ -311,5 +311,6 @@ li a:hover {
 }
 
 #top:hover {
-    background-color: #ff5286; /* Add a dark-grey background on hover */
-  }
+    background-color: #ff5286;
+    /* Add a dark-grey background on hover */
+}
