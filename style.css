@@ -282,8 +282,9 @@ li a:hover {
 
 #lb-img img {
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     height: auto;
+    margin: 0 auto;
     cursor: pointer;
 }
 
