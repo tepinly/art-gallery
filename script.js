@@ -1,6 +1,6 @@
 AOS.init({
-    duration: 1000,
-  })
+  duration: 1000,
+})
 
 // This function will show the image in the lightbox
 var zoomImg = function () {
