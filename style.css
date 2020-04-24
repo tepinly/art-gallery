@@ -9,12 +9,15 @@ html {
 }
 
 body {
+    background-color: black;
     background: url(background.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
+    animation-name: load;
+    animation-duration: 1s;
 }
 
 i {
@@ -307,5 +310,4 @@ li a:hover {
 
 #top:hover {
     background-color: #ff5286;
-    /* Add a dark-grey background on hover */
 }

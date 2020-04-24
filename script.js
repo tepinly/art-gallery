@@ -1,5 +1,5 @@
 AOS.init({
-  duration: 1000,
+  duration: 1200,
 })
 
 // This function will show the image in the lightbox
